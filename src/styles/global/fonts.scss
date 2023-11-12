@@ -1,0 +1,263 @@
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local('Jetbrains mono Thin'), local('JetbrainsMono-Thin'),
+    url('../fonts/jb-mono/JetBrainsMono-Thin.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 100;
+  src:
+    local('Jetbrains mono Thin Italic'), local('JetbrainsMono-ThinItalic'),
+    local('JetbrainsMono-Thin-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-ThinItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local('Jetbrains mono Extra Light'), local('JetbrainsMono-Extra-Light'),
+    url('../fonts/jb-mono/JetBrainsMono-ExtraLight.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 200;
+  src:
+    local('Jetbrains mono Extra Light Italic'), local('JetbrainsMono-Extra-Light-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-ExtraLightItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Jetbrains mono Light'), local('JetbrainsMono-Light'),
+    url('../fonts/jb-mono/JetBrainsMono-Light.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 300;
+  src:
+    local('Jetbrains mono Light Italic'), local('JetbrainsMono-Light-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-LightItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Jetbrains mono Regular'), local('JetbrainsMono-Regular'),
+    url('../fonts/jb-mono/JetBrainsMono-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local('Jetbrains mono Italic'), local('JetbrainsMono-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-Italic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Jetbrains mono Medium'), local('JetbrainsMono-Medium'),
+    url('../fonts/jb-mono/JetBrainsMono-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local('Jetbrains mono Medium Italic'), local('JetbrainsMono-Medium-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-MediumItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Jetbrains mono SemiBold'), local('Jetbrains mono Semi Bold'),
+    local('JetbrainsMono-SemiBold'), local('JetbrainsMono-Semi-Bold'),
+    url('../fonts/jb-mono/JetBrainsMono-SemiBold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local('Jetbrains mono SemiBoldItalic'), local('Jetbrains mono Semi Bold Italic'),
+    local('JetbrainsMono-SemiBoldItalic'), local('JetbrainsMono-Semi-Bold-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-SemiBoldItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Jetbrains mono Bold'), local('JetbrainsMono-Bold'),
+    url('../fonts/jb-mono/JetBrainsMono-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local('Jetbrains mono Bold italic'), local('JetbrainsMono-Bold-italic'),
+    url('../fonts/jb-mono/JetBrainsMono-BoldItalic.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: normal;
+  font-weight: 800;
+  src:
+    local('Jetbrains mono Extra Bold'), local('JetbrainsMono-Extra-Bold'),
+    url('../fonts/jb-mono/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jetbrains mono";
+  font-style: italic;
+  font-weight: 900;
+  src:
+    local('Jetbrains mono Extra Bold Italic'), local('JetbrainsMono-Extra-Bold-Italic'),
+    url('../fonts/jb-mono/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+}
+
+
+// Inter
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100;
+  src:
+    local('Inter Thin'), local('Inter-Thin'),
+    url('../fonts/inter/Inter-Thin.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local('Inter ExtraLight'), local('Inter-ExtraLight'),
+    url('../fonts/inter/Inter-ExtraLight.woff2') format('woff2'),
+    url('../fonts/inter/Inter-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Inter Light'), local('Inter-Light'),
+    url('../fonts/inter/Inter-Light.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Inter Regular'), local('Inter-Regular'),
+    url('../fonts/inter/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Inter Medium'), local('Inter-Medium'),
+    url('../fonts/inter/Inter-Medium.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Inter SemiBold'), local('Inter-SemiBold'),
+    url('../fonts/inter/Inter-SemiBold.woff2') format('woff2'),
+    url('../fonts/inter/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Inter Bold'), local('Inter-Bold'),
+    url('../fonts/inter/Inter-Bold.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  src:
+    local('Inter ExtraBold'), local('Inter-ExtraBold'),
+    url('../fonts/inter/Inter-ExtraBold.woff2') format('woff2'),
+    url('../fonts/inter/Inter-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  src:
+    local('Inter Black'), local('Inter-Black'),
+    url('../fonts/inter/Inter-Black.woff2') format('woff2'),
+    url('../fonts/inter/Inter-Black.woff') format('woff');
+}

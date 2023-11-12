@@ -1,0 +1,31 @@
+{
+  "name": "custom-errors",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/pages/*.html --lazy -p 3000",
+    "start": "npm run dev",
+    "lint:styles": "stylelint ./**/*.scss --fix",
+    "build": "parcel build src/pages/*.html --dist-dir prom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "@types/node": "^20.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "parcel": "^2.10.2",
+    "stylelint": "^15.11.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-recommended-scss": "^13.1.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "typescript": "^5.2.2"
+  }
+}
