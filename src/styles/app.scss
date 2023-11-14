@@ -2,6 +2,46 @@
 @import "./tools/mixins";
 @import "./tools/functions";
 
-// Styles
-@import "./global/fonts";
-@import "./global/reset";
+// global styles. Critical?
+@import './global/reset';
+@import './global/fonts';
+
+body {
+  // text
+  --text-color: #{$darkText};
+
+  // selection
+  --selection-text-color: #{$selectionText};
+  --selection-bg-color: #{$selectionBG};
+
+  // scrollbar
+  --scrollbar-thumb: #{$scrollbarThumbColor};
+  --scrollbar-track: #{$scrollbarTrackColor};
+
+  // borders
+  --border-color-default: #{$borderColor};
+}
+
+.custom-scrollbar {
+  overflow-y: auto !important;
+  scrollbar-color: var(--scrollbar-thumb, $scrollbarThumbColor) var(--scrollbar-track, $scrollbarTrackColor);
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track, $scrollbarTrackColor);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb, $scrollbarThumbColor);
+  }
+}
+
+::selection {
+  background: var(--scrollbar-track, $scrollbarTrackColor);
+  color: var(--scrollbar-track, $scrollbarTrackColor);
+  text-shadow: none;
+}

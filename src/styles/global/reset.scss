@@ -82,8 +82,6 @@ video {
   padding: 0;
   border: 0;
   margin: 0;
-  font-family: $fFamily;
-  font-size: 100%;
   vertical-align: baseline;
 }
 
@@ -144,7 +142,6 @@ img {
 }
 
 a {
-  color: $linkColor;
   text-decoration: none;
 }
 
