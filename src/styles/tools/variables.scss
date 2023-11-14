@@ -2,25 +2,15 @@
 $fFamily: "Jetbrains mono", "Inter", sans-serif;
 
 // Colors
-// Main colors
-$cBaseText: #000;
-$linkColor: #000;
-$errorColor: #E70505;
-$progressColor: rgb(18 18 18 / 10%);
-$bgGray: rgb(15 14 14 / 16%);
-
-// Selection
-$selectionColorBG: #000;
-$selectionColorColor: #FFF;
-
-// Sections
-$sectionColorBlue: #153092;
-$sectionColorWhite: #fff;
-$sectionColorGray: #e1e7f3;
+$darkText: #333;
+$greyDarkBG: rgb(51 51 51 / 60%);
+$greyMidBG: rgb(51 51 51 / 30%);
+$greyLightBG: rgb(51 51 51 / 10%);
+$lightBG: #F1F1F1;
 
 // Scrollbar
-$scrollbarThumbColor: #000;
-$scrollbarTrackColor: rgb(18 18 18 / 10%);
+$scrollbarThumbColor: $darkText;
+$scrollbarTrackColor: $greyMidBG;
 
 // Sizing along the upper border
 $mobileBreakpoint: 768px; // 0-767
@@ -28,3 +18,13 @@ $tabletBreakpoint: 1024px; // 768 - 1024, portrait-landscape, etc
 $macbookBreakpont: 1440px;
 $fullHDBreakpont: 1920px;
 
+// Variables
+// Text
+$textColor: $darkText;
+
+// Selection
+$selectionBG: $darkText;
+$selectionText: $lightBG;
+
+// Border
+$borderColor: $greyDarkBG;
