@@ -7,6 +7,8 @@
     "dev": "parcel src/pages/*.html --lazy -p 3000",
     "start": "npm run dev",
     "lint:styles": "stylelint ./**/*.scss --fix",
+    "lint:scripts": "eslint ./ --ext .js,.ts --fix",
+    "lint": "npm run lint:styles && npm run lint:scripts",
     "build": "parcel build src/pages/*.html"
   },
   "keywords": [],
